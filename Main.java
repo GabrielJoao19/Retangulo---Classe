@@ -3,6 +3,6 @@ public class Main {
 
         Aluno aluno1 = new Aluno("Joao",70);
 
-        aluno1.aprovado();
+        System.out.println(aluno1.aprovado());
     }
 }
