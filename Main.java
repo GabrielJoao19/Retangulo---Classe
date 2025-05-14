@@ -1,8 +1,8 @@
 public class Main {
-    public static void Main(String[]args){
+    public static void main(String[]args){
 
-        Aluno aluno1 = new Aluno("Joao",70)
+        Aluno aluno1 = new Aluno("Joao",70);
 
-        aluno1.aprovado()
+        aluno1.aprovado();
     }
 }
