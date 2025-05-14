@@ -15,12 +15,12 @@ public class Aluno {
         return nota;
     }
 
-    public boolean aprovado(){
+    public void aprovado(){
         if (nota >=60){
-            return true;
+            System.out.println("Voce foi aprovado");
         }
         else{
-            return false;
+            System.out.println("Voce foi reprovado");
         }
     }
 }
